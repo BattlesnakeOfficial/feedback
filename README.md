@@ -22,6 +22,6 @@ If you can't find something similar, we encourage you to open a discussion follo
 
 While the Battlesnake team will carefully consider every bug and feature request carefully, we are unable to make any guarentees that feedback provided in these discussions will actually be developed or delivered.
 
-### Our Inspiration
+### Attribution
 
 *This repository is inspired by the [github/feedback](https://github.com/github/feedback) repository*
