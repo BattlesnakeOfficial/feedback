@@ -12,9 +12,8 @@ Rather than reporting issues in each repository, [battlesnakeofficial/feedback](
 |[Docs]()|[Discord](https://play.battlesnake.com/discord)|
 |[Exporter]()||
 |[Board]()||
-|[Try]()||
 
-## Sharing Your Feedback
+## Contributing Your Feedback
 
 First things first, take a look through previous discussions to see if your suggestion already exists, and if you find a suggestion similar to what you are thinking, simply add an up-vote or join into the existing community discussion.
 
