@@ -8,10 +8,10 @@ Rather than reporting issues in each repository, [battlesnakeofficial/feedback](
 
 |**Repositories** | **Other**|
 |---|---|
-|[Rules]()|[Store](https://store.battlesnake.com)|
-|[Docs]()|[Discord](https://play.battlesnake.com/discord)|
-|[Exporter]()||
-|[Board]()||
+|[Rules](https://github.com/BattlesnakeOfficial/feedback/discussions/categories/rules)|[Store](https://github.com/BattlesnakeOfficial/feedback/discussions/categories/store)|
+|[Docs](https://github.com/BattlesnakeOfficial/feedback/discussions/categories/docs)|[Discord](https://github.com/BattlesnakeOfficial/feedback/discussions/categories/discord)|
+|[Exporter](https://github.com/BattlesnakeOfficial/feedback/discussions/categories/exporter)||
+|[Board](https://github.com/BattlesnakeOfficial/feedback/discussions/categories/board)||
 
 ## Contributing Your Feedback
 
