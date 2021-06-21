@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: ✨ Feature Request / Idea
+    url: https://github.com/battlesnakeofficial/feedback/discussions/new
+    about: Missing something in Battlesnake? Let us know.
+  - name: 💬 Question / Discussion
+    about: Join us on Discord
+    url: https://play.battlesnake.com/discord
+  - name: 📖 View documentation
+    url: https://docs.battlesnake.com
+    about: Official Battlesnake documentation
