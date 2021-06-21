@@ -1,6 +1,6 @@
 blank_issues_enabled: false
 contact_links:
-  - name: ✨ Feature Request / Idea
+  - name: ✨ Feature Request / Bug Report
     url: https://github.com/battlesnakeofficial/feedback/discussions/new
     about: Missing something in Battlesnake? Let us know.
   - name: 💬 Question / Discussion
