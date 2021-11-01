@@ -10,10 +10,11 @@ jobs:
       name: Slack Notification Demo
       runs-on: ubuntu-latest
       steps:
-      - uses: actions/checkout@master
-      - name: Slack Notification Demo
-        uses: bryannice/gitactions-slack-notification@2.0.0
+      - name: Post to a Slack channel
+        id: slack
+        uses: slackapi/slack-github-action@v1.14.0
+        with:
+         channel-id: 'C022NLSRAJU'  # Slack channel id to post message
+         slack-message: 'posting from a github action!'
         env:
-          SLACK_INCOMING_WEBHOOK: ${{ secrets.SLACK_INCOMING_WEBHOOK }}
-          SLACK_MESSAGE: 'New Feedback from the Community'
-          SLACK_TITLE: 'Community Feedback'
+         SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
