@@ -1,0 +1,19 @@
+name: Discussions Notification
+on:
+  discussion:
+    types: created
+  discussion_comment:
+    types: created
+    
+jobs:
+    slackNotification:
+      name: Slack Notification Demo
+      runs-on: ubuntu-latest
+      steps:
+      - uses: actions/checkout@master
+      - name: Slack Notification Demo
+        uses: bryannice/gitactions-slack-notification@2.0.0
+        env:
+          SLACK_INCOMING_WEBHOOK: ${{ secrets.SLACK_INCOMING_WEBHOOK }}
+          SLACK_MESSAGE: 'New Feedback from the Community'
+          SLACK_TITLE: 'Community Feedback'
