@@ -15,6 +15,6 @@ jobs:
         uses: slackapi/slack-github-action@v1.14.0
         with:
          channel-id: 'C022NLSRAJU'  # Slack channel id to post message
-         slack-message: 'posting from a github action!'
+         slack-message: 'There is something new in the Feedback Repo! Check it out at https://play.battlesnake.com/feedback!'
         env:
          SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
