@@ -10,11 +10,29 @@ jobs:
       name: Slack Notification Demo
       runs-on: ubuntu-latest
       steps:
-      - name: Post to a Slack channel
-        id: slack
+      - name: $github
+        run: echo "$GITHUB_CONTEXT"
+        env:
+          GITHUB_CONTEXT: ${{ toJson(github) }}
+
+      - name: Post discussion to a Slack channel
+        if: github.event_name == 'discussion'
         uses: slackapi/slack-github-action@v1.14.0
         with:
          channel-id: 'C022NLSRAJU'  # Slack channel id to post message
-         slack-message: 'There is a new ${{ github.event_name }} in the Battlesnake Feedback Repo! Check it out now at https://play.battlesnake.com/feedback'
+         slack-message: |
+            There is a new <${{ github.event.discussion.html_url }}|discussion> from ${{ github.actor }} in the Battlesnake Feedback Repo!
+            >>> ${{ github.event.discussion.title }}
+        env:
+         SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
+
+      - name: Post discussion comment to a Slack channel
+        if: github.event_name == 'discussion_comment'
+        uses: slackapi/slack-github-action@v1.14.0
+        with:
+         channel-id: 'C022NLSRAJU'  # Slack channel id to post message
+         slack-message: |
+            There is a new comment from ${{ github.actor }} on <${{ github.event.discussion.html_url }}|${{ github.event.discussion.title }}>
+            >>> ${{ github.event.comment.body }}
         env:
          SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
