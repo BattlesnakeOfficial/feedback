@@ -3,15 +3,9 @@
 **Welcome to the Battlesnake Feedback Repository, your space to share ideas, report bugs, and request features that can help inform the future of the Battlesnake platform and community.**
 
 [![alt text](https://img.shields.io/badge/Have%20Some%20Feedback%3F-Join%20the%20Discussion-blueviolet?style=for-the-badge)](https://github.com/BattlesnakeOfficial/feedback/discussions)
+![Discussion Count](https://img.shields.io/github/discussions/battlesnakeofficial/feedback?style=for-the-badge)
 
-Rather than reporting issues in each repository, [battlesnakeofficial/feedback](https://github.com/BattlesnakeOfficial/feedback) provides a central space for the Battlesnake Product team to receive feedback and suggestions, using the [General](https://github.com/BattlesnakeOfficial/feedback/discussions/categories/general) category for more global issues, and categories for our existing public repositries and community spaces including:
-
-|**Repositories** | **Other**|
-|---|---|
-|[Rules](https://github.com/BattlesnakeOfficial/feedback/discussions/)|[Store](https://github.com/BattlesnakeOfficial/feedback/discussions/)|
-|[Docs](https://github.com/BattlesnakeOfficial/feedback/discussions/)|[Discord](https://github.com/BattlesnakeOfficial/feedback/discussions/)|
-|[Exporter](https://github.com/BattlesnakeOfficial/feedback/discussions/)||
-|[Board](https://github.com/BattlesnakeOfficial/feedback/discussions/)||
+Rather than reporting issues in each repository, [battlesnakeofficial/feedback](https://github.com/BattlesnakeOfficial/feedback) provides a central space for the Battlesnake Product team to receive feedback and suggestions, using the [General](https://github.com/BattlesnakeOfficial/feedback/discussions/categories/general) category for more global issues, and categories for our existing public repositries and community spaces.
 
 ## Contributing Your Feedback
 
